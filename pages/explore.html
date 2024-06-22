@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Entertainment / Explore</title>
+    <!-- tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-red-800 text-white font-[Poppins]">
+    <header class="text-center pt-5">
+        <nav>
+            <div>
+                <p class="text-2xl font-bold md:text-4xl">Global Entertainment</p>
+            </div>
+        <div class="flex justify-center items-center mt-5">
+        <div>
+            <!-- Tab Navbar -->
+            <ul class="sm:flex gap-5 justify-center pb-3">
+                <li for="tab1" class="hover:text-red-500 text-lg pr-5 cursor-pointer mb-3">Books</li>
+                <li for="tab2" class="hover:text-red-500 text-lg pr-5 cursor-pointer mb-3">Movies</li>
+                <li for="tab3" class="hover:text-red-500 text-lg pr-5 cursor-pointer mb-3">Games</li>
+                <li for="tab4" class="hover:text-red-500 text-lg pr-5 cursor-pointer mb-3">TV Shows</li>
+                <li for="tab5" class="hover:text-red-500 text-lg pr-5 cursor-pointer mb-3">Music</li>
+                <li for="tab6" class="hover:text-red-500 text-lg pr-5 cursor-pointer mb-3">Arts</li>
+                <li for="tab7" class="hover:text-red-500 text-lg pr-5 cursor-pointer mb-3">Events</li>
+                <li for="tab8" class="hover:text-red-500 text-lg pr-5 cursor-pointer mb-3">Videos</li>
+                <li for="tab9" class="hover:text-red-500 text-lg pr-5 cursor-pointer mb-3">Adventure</li>
+                <li for="tab10" class="hover:text-red-500 text-lg pr-5 cursor-pointer mb-3">Today</li>
+            </ul>
+            <hr>
+            <!-- Tab Content -->
+        
+            <div class="mt-4">
+                <div id="tab1" class="hidden">
+                    <!-- Content for Books Tab -->
+                       <!-- first section -->
+                       <section class="mt-5 sm:flex sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Step into the Magical World of Narnia: The Lion, the Witch, and the Wardrobe"</h2>
+                            <p class="pt-5 leading-loose">"Immerse yourself in the enchanting tale of The Lion, the Witch, and the Wardrobe, a timeless classic that transports you to the magical land of Narnia. Join siblings Peter, Susan, Edmund, and Lucy as they discover a hidden world beyond the confines of a mysterious wardrobe. Encounter mythical creatures, brave adventures, and confront the icy rule of the White Witch alongside the majestic lion, Aslan. With themes of courage, redemption, and the triumph of good over evil, this epic fantasy adventure captivates audiences of all ages. Experience the magic and wonder of Narnia in this unforgettable journey."</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://en.wikipedia.org/wiki/The_Lion,_the_Witch_and_the_Wardrobe" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pl-7 sm:w-2/4 px-20">
+                            <img class="pt-5 sm:text-center" src="../images/TheLionWitchWardrobe(1stEd).jpg" alt="">
+                        </div>
+                    </section>
+                    <!-- second section -->
+                    <section class="mt-10 sm:flex sm:flex-row-reverse sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Rediscover Childhood Joy: Winnie-the-Pooh's Endearing Tales"</h2>
+                            <p class="pt-5 leading-loose">"Embark on a heartwarming journey into the whimsical world of Winnie-the-Pooh, where friendship, imagination, and simple pleasures reign supreme. Follow the beloved bear and his friends—Piglet, Tigger, Eeyore, and more—as they embark on delightful adventures in the Hundred Acre Wood. From honey-seeking escapades to heart-to-heart conversations under the shade of the Hundred Acre Tree, each tale brims with charm and nostalgia. Winnie-the-Pooh's endearing adventures remind us of the joy found in the little things and the power of friendship to light up even the gloomiest of days. Join Pooh and his pals in these timeless tales that capture the essence of childhood wonder."</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://en.wikipedia.org/wiki/Winnie-the-Pooh_(book)" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pr-7 sm:w-2/4 px-20">
+                            <img class="pt-5 sm:text-center " src="../images/Winnie-the-Pooh_(book).png" alt="">
+                        </div>
+                    </section>
+                    <hr>
+                    <footer class="text-center pt-5 mt-5">
+                        <nav>
+                            <div>
+                                <h3 class="text-2xl font-bold md:text-xl">Copyright Global Entertainment - 2024</h3>
+                            </div>
+                            <div class="mt-3 md:mt-4">
+                                <ul class=" sm:flex sm:place-content-center gap-5 ">
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="../index.html">Home</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./explore.html">Explore</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./contact.html">Contact</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./donate.html">Donate</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./about.html">About</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </footer>
+                </div>
+                <div id="tab2" class="hidden">
+                    <!-- Content for Movies Tab -->
+                    <!-- first section -->
+                    <section class="mt-10 sm:flex sm:flex-row-reverse sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Return of the Dragon Warrior: Kung Fu Panda 4 - A Legendary Adventure Awaits!"</h2>
+                            <p class="pt-5 leading-loose">Po must train a new warrior when he's chosen to become the spiritual leader of the Valley of Peace. However, when a powerful shape-shifting sorceress sets her eyes on his Staff of Wisdom, he suddenly realizes he's going to need some help. Teaming up with a quick-witted corsac fox, Po soon discovers that heroes can be found in the most unexpected places.</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://en.wikipedia.org/wiki/Kung_Fu_Panda_4" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pr-7 sm:w-2/4 px-20">
+                            <img class="pt-5 sm:text-center" src="../images/Kung_Fu_Panda_4_poster.jpg" alt="">
+                        </div>
+                    </section>
+                    <!-- second section -->
+                    <section class="mt-5 sm:flex sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Shell-Shocking Action Unleashed: Teenage Mutant Ninja Turtles: Mutant Mayhem"</h2>
+                            <p class="pt-5 leading-loose">After years of being sheltered from the human world, the Turtle brothers set out to win the hearts of New Yorkers and be accepted as normal teenagers. Their new friend, April O'Neil, helps them take on a mysterious crime syndicate, but they soon get in over their heads when an army of mutants is unleashed upon them. </p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://en.wikipedia.org/wiki/Teenage_Mutant_Ninja_Turtles:_Mutant_Mayhem" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pl-7 sm:w-2/4 px-20">
+                            <img class="pt-5 sm:text-center" src="../images/Teenage_Mutant_Ninja_Turtles_-_Mutant_Mayhem.jpg" alt="">
+                        </div>
+                    </section>
+                    <hr>
+                    <footer class="text-center pt-5 mt-5">
+                        <nav>
+                            <div>
+                                <h3 class="text-2xl font-bold md:text-xl">Copyright Global Entertainment - 2024</h3>
+                            </div>
+                            <div class="mt-3 md:mt-4">
+                                <ul class=" sm:flex sm:place-content-center gap-5 ">
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="../index.html">Home</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./explore.html">Explore</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./contact.html">Contact</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./donate.html">Donate</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./about.html">About</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </footer>
+                </div>
+                <div id="tab3" class="hidden">
+                    <!-- Content for Games Tab -->
+                    <!-- first section -->
+                    <section class="mt-5 sm:flex sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Enter the Arena: Conquer the Rift in League of Legends!"</h2>
+                            <p class="pt-5 leading-loose">"Embark on an epic journey into the heart of battle with League of Legends, the world's premier multiplayer online battle arena game. Choose from a vast roster of champions, each with their own unique abilities and playstyles, and team up with friends or go solo to dominate the Rift. With strategic gameplay, intense team fights, and constantly evolving updates, League of Legends offers endless excitement and challenge for players of all skill levels. Are you ready to rise to the top and become a legend?"</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://www.leagueoflegends.com/en-ph/" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pl-7 sm:w-2/4">
+                            <img class="pt-5 sm:text-center w-full" src="../images/LeagueOfLegends.jpg" alt="">
+                        </div>
+                    </section>
+                    <!-- second section -->
+                    <section class="mt-10 sm:flex sm:flex-row-reverse sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Craft Your Adventure: Explore Boundless Worlds in Minecraft!"</h2>
+                            <p class="pt-5 leading-loose">"Embark on a limitless journey of creativity and exploration in Minecraft, the ultimate sandbox adventure game. Build, mine, and craft your way through procedurally generated worlds filled with endless possibilities. From towering castles to intricate redstone contraptions, the only limit is your imagination. Team up with friends to conquer challenges, embark on epic quests, or simply enjoy the freedom of creating your own virtual paradise. With regular updates and a thriving community, Minecraft offers endless adventures for players of all ages. Are you ready to unleash your creativity and build the world of your dreams?"</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://www.minecraft.net/en-us" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pr-7 sm:w-2/4 px-20">
+                            <img class="pt-5 sm:text-center w-full" src="../images/Minecraft_cover.png" alt="">
+                        </div>
+                    </section>
+                    <hr>
+                    <footer class="text-center pt-5 mt-5">
+                        <nav>
+                            <div>
+                                <h3 class="text-2xl font-bold md:text-xl">Copyright Global Entertainment - 2024</h3>
+                            </div>
+                            <div class="mt-3 md:mt-4">
+                                <ul class=" sm:flex sm:place-content-center gap-5 ">
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="../index.html">Home</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./explore.html">Explore</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./contact.html">Contact</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./donate.html">Donate</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./about.html">About</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </footer>
+                </div>
+                <div id="tab4" class="hidden">
+                    <!-- Content for TV Show Tab -->
+                      <!-- first section -->
+                      <section class="mt-10 sm:flex sm:flex-row-reverse sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Power Unlocked: Embark on Exciting Adventures with Ben 10!"</h2>
+                            <p class="pt-5 leading-loose">Ben Tennyson, a 10-year-old boy, discovers a magical device that can turn him into 10 different alien heroes, each with its own unique abilities. With this newfound power, Ben, Grandpa Max and cousin Gwen help others and stop evildoers - but that doesn't mean he doesn't cause some superpowered kid mischief once and a while.</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://en.wikipedia.org/wiki/Ben_10" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pr-7 sm:w-2/4 px-20">
+                            <img class="pt-5 sm:text-center" src="../images/Ben_10_reboot_logo.png" alt="">
+                        </div>
+                      </section>
+                      <!-- second section -->
+                      <section class="mt-5 sm:flex sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Classic Cat-and-Mouse Chaos: Dive into the Timeless Comedy of Tom and Jerry!"</h2>
+                            <p class="pt-5 leading-loose">"Experience the timeless hilarity of Tom and Jerry as they engage in their never-ending game of cat-and-mouse. From clever traps to wild chases, this iconic duo delivers non-stop entertainment for all ages. Join Tom, the scheming cat, and Jerry, the quick-witted mouse, in their whimsical adventures filled with laughter, mayhem, and unexpected friendships. Whether they're battling it out in a mansion, on a pirate ship, or in outer space, Tom and Jerry's misadventures are guaranteed to leave you in stitches. Get ready for classic comedy and timeless fun with Tom and Jerry!" </p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://en.wikipedia.org/wiki/Tom_and_Jerry" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pl-7 sm:w-2/4">
+                            <img class="pt-5 sm:text-center w-full" src="../images/tomandjerry.jpg" alt="">
+                        </div>
+                    </section>
+                    <hr>
+                    <footer class="text-center pt-5 mt-5">
+                        <nav>
+                            <div>
+                                <h3 class="text-2xl font-bold md:text-xl">Copyright Global Entertainment - 2024</h3>
+                            </div>
+                            <div class="mt-3 md:mt-4">
+                                <ul class=" sm:flex sm:place-content-center gap-5 ">
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="../index.html">Home</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./explore.html">Explore</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./contact.html">Contact</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./donate.html">Donate</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./about.html">About</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </footer>
+                </div>
+                <div id="tab5" class="hidden">
+                    <!-- Content for Music Tab -->
+                    <!-- first section -->
+                    <section class="mt-5 sm:flex sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Dive into the Catchy Craze: Baby Shark's Irresistible Adventure!"</h2>
+                            <p class="pt-5 leading-loose">"Discover the phenomenon behind the viral sensation of 'Baby Shark,' a delightful children's song that has taken the world by storm. Originally produced by South Korean education brand Pinkfong, 'Baby Shark' captivated audiences with its catchy melody, simple lyrics, and playful dance moves. The song's infectious charm quickly spread across social media platforms, capturing the hearts of children and adults alike. With its colorful animation and repetitive chorus, 'Baby Shark' became a global sensation, inspiring countless covers, dance challenges, and merchandise. From living rooms to classrooms to stadiums, the irresistible appeal of 'Baby Shark' continues to unite people of all ages in a joyous celebration of music and fun."</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://www.youtube.com/watch?v=XqZsoesa55w" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pl-7 sm:w-2/4">
+                            <img class="pt-5 sm:text-center w-full" src="../images/babyshark.jpg" alt="">
+                        </div>
+                    </section>
+                    <!-- second section -->
+                    <section class="mt-10 sm:flex sm:flex-row-reverse sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Twinkling Wonder: Exploring the Timeless Magic of 'Twinkle Twinkle Little Star'"</h2>
+                            <p class="pt-5 leading-loose">"Unravel the enchanting journey behind the timeless classic, 'Twinkle Twinkle Little Star,' as it ascends to global fame. Originating from a 19th-century English poem, the melody evolved into a cherished nursery rhyme adored by generations. With its simple yet captivating lyrics and soothing melody, 'Twinkle Twinkle Little Star' transcends borders and languages, resonating with children and adults worldwide. Its popularity surged further with countless renditions across various media platforms, from traditional music recordings to animated videos. As a cherished part of childhood, this celestial lullaby continues to spark wonder and joy, illuminating the imaginations of audiences worldwide."</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://www.youtube.com/watch?v=yCjJyiqpAuU" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pr-7 sm:w-2/4 px-20">
+                            <img class="pt-5 sm:text-center w-full" src="../images/littlestar.jpg" alt="">
+                        </div>
+                    </section>
+                    <hr>
+                    <footer class="text-center pt-5 mt-5">
+                        <nav>
+                            <div>
+                                <h3 class="text-2xl font-bold md:text-xl">Copyright Global Entertainment - 2024</h3>
+                            </div>
+                            <div class="mt-3 md:mt-4">
+                                <ul class=" sm:flex sm:place-content-center gap-5 ">
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="../index.html">Home</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./explore.html">Explore</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./contact.html">Contact</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./donate.html">Donate</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./about.html">About</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </footer>
+                    
+                </div>
+                <div id="tab6" class="hidden">
+                    <!-- Content for Arts Tab -->
+                    <!-- first section -->
+                    <section class="mt-10 sm:flex sm:flex-row-reverse sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Starry Night's Spell: The Enigmatic Beauty of Vincent van Gogh's Masterpiece"</h2>
+                            <p class="pt-5 leading-loose">The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh, painted in June 1889. It depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://en.wikipedia.org/wiki/The_Starry_Night" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pr-7 sm:w-2/4 px-20">
+                            <img class="pt-5 sm:text-center" src="../images/starrynight.jpg" alt="">
+                        </div>
+                      </section>
+                      <!-- second section -->
+                      <section class="mt-5 sm:flex sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"The Mona Lisa Mystery: Decoding the Enigmatic Smile of Leonardo da Vinci's Iconic Portrait"</h2>
+                            <p class="pt-5 leading-loose">The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as "the best known, the most visited, the most written about, the most sung about, [and] the most parodied work of art in the world". </p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://en.wikipedia.org/wiki/Mona_Lisa" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pl-7 sm:w-2/4">
+                            <img class="pt-5 sm:text-center sm:w-1/2" src="../images/monalisa.jpg" alt="">
+                        </div>
+                    </section>
+                    <hr>
+                    <footer class="text-center pt-5 mt-5">
+                        <nav>
+                            <div>
+                                <h3 class="text-2xl font-bold md:text-xl">Copyright Global Entertainment - 2024</h3>
+                            </div>
+                            <div class="mt-3 md:mt-4">
+                                <ul class=" sm:flex sm:place-content-center gap-5 ">
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="../index.html">Home</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./explore.html">Explore</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./contact.html">Contact</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./donate.html">Donate</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./about.html">About</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </footer>
+                </div>
+                <div id="tab7" class="hidden">
+                    <!-- Content for Events Tab -->
+                     <!-- first section -->
+                     <section class="mt-5 sm:flex sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Embrace New Beginnings: Welcoming the New Year with Hope and Celebration"</h2>
+                            <p class="pt-5 leading-loose">"As the clock strikes midnight and the calendar turns to January 1st, the world collectively ushers in a new year filled with promise and possibility. New Year's Day symbolizes fresh starts, offering an opportunity to reflect on the past and embrace the future with renewed optimism. It's a time for joyous celebrations, whether with fireworks lighting up the night sky or gatherings with loved ones, toasting to new beginnings. As the old year fades into memory, we welcome the dawn of a new chapter, brimming with hope, resolutions, and the anticipation of what lies ahead. With hearts full of optimism and dreams ready to unfold, we embark on the journey of the new year, united in our shared optimism for brighter days ahead."</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://en.wikipedia.org/wiki/New_Year" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pl-7 sm:w-2/4">
+                            <img class="pt-5 sm:text-center w-full" src="../images/newyear.jpg" alt="">
+                        </div>
+                    </section>
+                    <!-- second section -->
+                    <section class="mt-10 sm:flex sm:flex-row-reverse sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Embracing Unity in Sport: The Global Spectacle of the Olympic Games"</h2>
+                            <p class="pt-5 leading-loose">"The Olympic Games stand as a testament to the unifying power of sport, bringing together athletes from every corner of the globe to compete on the world's grandest stage. Rooted in ancient tradition yet evolving with modern times, the Olympics transcend borders, cultures, and languages to celebrate the shared pursuit of excellence and athleticism. As nations gather to showcase their talent, determination, and sportsmanship, the Olympic Games inspire millions worldwide, fostering camaraderie, understanding, and mutual respect. From the thrill of victory to the agony of defeat, each Olympic Games is a testament to the human spirit and the enduring quest for greatness."</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://olympics.com/en/" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pr-7 sm:w-2/4 px-20">
+                            <img class="pt-5 sm:text-center w-full" src="../images/sports.jpg" alt="">
+                        </div>
+                    </section>
+                    <hr>
+                    <footer class="text-center pt-5 mt-5">
+                        <nav>
+                            <div>
+                                <h3 class="text-2xl font-bold md:text-xl">Copyright Global Entertainment - 2024</h3>
+                            </div>
+                            <div class="mt-3 md:mt-4">
+                                <ul class=" sm:flex sm:place-content-center gap-5 ">
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="../index.html">Home</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./explore.html">Explore</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./contact.html">Contact</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./donate.html">Donate</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./about.html">About</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </footer>
+                </div>
+                <div id="tab8" class="hidden">
+                    <!-- Content for Video Tab -->
+                     <!-- first section -->
+                     <section class="mt-10 sm:flex sm:flex-row-reverse sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Heartwarming Moments: Delight in Adorable Animal Compilations"</h2>
+                            <p class="pt-5 leading-loose">"Prepare to be charmed as you dive into the heartwarming world of cute animal compilations. From playful puppies and curious kittens to majestic wildlife and adorable farm animals, these compilations capture the essence of joy and innocence in the animal kingdom. Watch as furry friends embark on mischievous adventures, share tender moments with their human companions, and showcase their irresistible charm in a series of delightful vignettes. Whether you're in need of a mood boost or simply seeking a dose of pure happiness, these compilations are sure to bring a smile to your face and warmth to your heart."</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://www.youtube.com/watch?v=kj1-rR3udNs" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pr-7 sm:w-2/4 px-20">
+                            <img class="pt-5 sm:text-center" src="../images/cuteanimals.jpg" alt="">
+                        </div>
+                      </section>
+                      <!-- second section -->
+                      <section class="mt-5 sm:flex sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">"Crafting Inspiration: Dive into the World of 5-Minute Crafts!"</h2>
+                            <p class="pt-5 leading-loose">"Explore the endless realm of creativity with 5-Minute Crafts compilation videos. Dive into a treasure trove of DIY projects, life hacks, and crafting inspiration that promise to transform everyday items into extraordinary creations. From simple household solutions to stunning art and decor ideas, these compilations offer something for everyone, regardless of skill level or expertise. Get ready to unleash your inner artist, discover new ways to simplify your life, and embark on exciting crafting adventures with the help of 5-Minute Crafts!" </p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://www.youtube.com/watch?v=o909eJiN-ck" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pl-7 sm:w-2/4">
+                            <img class="pt-5 sm:text-center " src="../images/DiyCrafts.jpg" alt="">
+                        </div>
+                    </section>
+                    <hr>
+                    <footer class="text-center pt-5 mt-5">
+                        <nav>
+                            <div>
+                                <h3 class="text-2xl font-bold md:text-xl">Copyright Global Entertainment - 2024</h3>
+                            </div>
+                            <div class="mt-3 md:mt-4">
+                                <ul class=" sm:flex sm:place-content-center gap-5 ">
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="../index.html">Home</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./explore.html">Explore</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./contact.html">Contact</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./donate.html">Donate</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./about.html">About</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </footer>
+                </div>
+                <div id="tab9" class="hidden">
+                    <!-- Content for Adventure Tab -->
+                        <!-- first section -->
+                        <section class="mt-5 sm:flex sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                            <div class="sm:mr-10 sm:w-3/4">
+                                <h2 class="text-lg text-center font-semibold">"Into the Wild: Captivating Wildlife Encounters Around the Globe"</h2>
+                                <p class="pt-5 leading-loose">"Embark on a mesmerizing journey into the heart of nature with captivating wildlife encounters from around the globe. From the majestic savannas of Africa to the lush rainforests of South America, these adventures offer an intimate glimpse into the lives of Earth's most fascinating creatures. Witness the grace of a lioness stalking her prey, the playful antics of mischievous monkeys swinging through the trees, and the breathtaking beauty of endangered species thriving in their natural habitats. Whether you're mesmerized by marine life in the depths of the ocean or mesmerized by the sight of exotic birds soaring through the sky, each wildlife encounter promises to leave an indelible mark on your soul. Join us as we venture into the wild and discover the wonders of our planet's diverse ecosystems." </p>
+                                <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                    <a href="https://www.youtube.com/playlist?list=PLOIZrp_eiuydJ2ou2dqmuOl8EE-AWsU0-" target="_blank">Learn More</a>
+                                </button>
+                            </div>
+                            <div class="sm:pl-7 sm:w-2/4">
+                                <img class="pt-5 sm:text-center w-full" src="../images/wildlife.jpg" alt="">
+                            </div>
+                        </section>
+                        <!-- second section -->
+                        <section class="mt-10 sm:flex sm:flex-row-reverse sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                            <div class="sm:mr-10 sm:w-3/4">
+                                <h2 class="text-lg text-center font-semibold">"Hit the Open Road: Embarking on Epic Road Trips of Discovery"</h2>
+                                <p class="pt-5 leading-loose">"Set out on an unforgettable adventure as we traverse the winding roads and scenic byways of the world's most picturesque landscapes. From the rugged beauty of mountain passes to the sun-drenched stretches of coastal highways, each road trip promises a journey of discovery and exploration. Along the way, we'll uncover hidden gems, quaint towns, and awe-inspiring natural wonders, all while immersing ourselves in the freedom of the open road. Whether you're seeking adrenaline-pumping adventures or peaceful moments of solitude, road trips offer an unparalleled opportunity to connect with the world around us and create memories that last a lifetime. So buckle up, roll down the windows, and let the journey begin!"</p>
+                                <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                    <a href="https://www.youtube.com/watch?v=v4CA65JyaVA" target="_blank">Learn More</a>
+                                 </button>
+                            </div>
+                            <div class="sm:pr-7 sm:w-2/4">
+                                <img class="pt-5 sm:text-center w-full" src="../images/roadtrip.jpg" alt="">
+                            </div>
+                        </section>
+                        <hr>
+                        <footer class="text-center pt-5 mt-5">
+                            <nav>
+                                <div>
+                                    <h3 class="text-2xl font-bold md:text-xl">Copyright Global Entertainment - 2024</h3>
+                                </div>
+                                <div class="mt-3 md:mt-4">
+                                    <ul class=" sm:flex sm:place-content-center gap-5 ">
+                                            <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="../index.html">Home</a></li>
+                                            <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./explore.html">Explore</a></li>
+                                            <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./contact.html">Contact</a></li>
+                                            <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./donate.html">Donate</a></li>
+                                            <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./about.html">About</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </footer>
+                </div>
+                <div class="mt-6" id="tab10" class="hidden">
+                    <!-- Content for Today Tab -->
+                    <!-- first section -->
+                    <section class="mt-5 sm:flex sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">Picture of the day</h2>
+                            <p class="pt-5 leading-loose">Discover the Charm of nature with this captivating rabbit portrait. With its soft fur and curious eyes, the rabbit embodies innocence and grace, reminding us of the simple joys found in the natural world. </p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://www.rd.com/list/cutest-bunnies/" target="_blank">Learn More</a>
+                            </button>
+                        </div>
+                        <div class="sm:pl-7 sm:w-2/4">
+                            <img class="pt-5 sm:text-center w-full" src="../images/rabbit.jpg" alt="">
+                        </div>
+                    </section>
+                    <!-- second section -->
+                    <section class="mt-10 sm:flex sm:flex-row-reverse sm:items-center max-w-7xl gap-5 sm:ml-28  sm:justify-center p-5">
+                        <div class="sm:mr-10 sm:w-3/4">
+                            <h2 class="text-lg text-center font-semibold">Marcos affirmed PH sovereignty over WPS in Shangri-La speech -analysts</h2>
+                            <p class="pt-5 leading-loose">During the Shangri-La Dialogue in Singapore, President Ferdinand "Bongbong" Marcos Jr. delivered a strong statement affirming the Philippines' sovereignty over the West Philippine Sea, garnering praise from political analysts. Emphasizing the Philippines' status as an archipelagic state, Marcos highlighted the significance of the West Philippine Sea to the Filipino people, framing the nation as a maritime nation. He reiterated his administration's dedication to safeguarding the country's territorial rights amidst ongoing maritime disputes with China, signaling a firm stance on national sovereignty and maritime security..</p>
+                            <button class="py-2 px-5 bg-red-500 font-semibold rounded-full hover:bg-red-700 mb-5 mt-5 ">
+                                <a href="https://www.gmanetwork.com/news/topstories/nation/908722/marcos-affirmed-ph-sovereignty-over-wps-in-shangri-la-speech-analysts/story/" target="_blank">Learn More</a>
+                             </button>
+                        </div>
+                        <div class="sm:pr-7 sm:w-2/4">
+                            <img class="pt-5 sm:text-center w-full" src="../images/marcos.jpg" alt="">
+                        </div>
+                    </section>
+                    <hr>
+                    <footer class="text-center pt-5 mt-5">
+                        <nav>
+                            <div>
+                                <h3 class="text-2xl font-bold md:text-xl">Copyright Global Entertainment - 2024</h3>
+                            </div>
+                            <div class="mt-3 md:mt-4">
+                                <ul class=" sm:flex sm:place-content-center gap-5 ">
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="../index.html">Home</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./explore.html">Explore</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./contact.html">Contact</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./donate.html">Donate</a></li>
+                                        <li class="pb-2"><a class="hover:text-red-500 text-lg pr-3" href="./about.html">About</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </footer>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+ </nav>
+</header>
+
+    <!-- JavaScript to handle tab switching -->
+    <script>
+        const tabs = document.querySelectorAll('[for^="tab"]');
+        const tabContents = document.querySelectorAll('[id^="tab"]');
+
+        tabs.forEach((tab, index) => {
+            tab.addEventListener('click', () => {
+                tabContents.forEach(content => content.classList.add('hidden'));
+                tabContents[index].classList.remove('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
